@@ -59,4 +59,4 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=_description)
     parser.add_argument('infile', help='path to the input file')
     args = parser.parse_args()
-    process(args.infile)
+    process(args.infile) #args.infile sarebbe il filepath
